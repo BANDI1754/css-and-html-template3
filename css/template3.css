@@ -1,0 +1,211 @@
+body {
+    background-color: #eee;
+    margin: 0px;
+}
+/* start page head  */
+nav {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+nav .container img {
+    width: 480px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+nav .container ul {
+    list-style: none;
+}
+nav .container  li {
+    display: inline-block;
+    margin-right: 43px;
+    font-size: 17px;
+    font-weight: 200;
+    font-family:sans-serif ;
+}
+nav .container ul a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .container h1 {
+    margin-bottom: 10px;
+}
+header .container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header .container form  input {
+    display: block;
+    margin: 15px;
+}
+header .container form input[type="email"] {
+    width: 350px;
+    height: 25px;
+}
+header .container form input[type="submit"] {
+    width: 150px;
+    margin: auto;
+    height: 25px;
+    background-color: #F1C40F;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transition-duration: 0.6s;
+}
+header .container form input[type="submit"]:hover {
+    background-color: #FF8C00;
+}
+/* end page head  */
+
+/* start landing page  */
+main .container .first-line  {
+    width: 100%;
+    height: auto;
+    margin: 80px;
+    display: flex;
+}
+main .container i {
+    margin-right: 80px;
+    font-size: 70px;
+    color: #FF8C00;
+    margin-top: 20px;
+
+}
+main .container h3 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+main .container p {
+    font-size: 17px;
+    word-spacing: 2px;
+    margin-top: -15px
+}
+
+main .container .second-line  {
+    width: 100%;
+    height: auto;
+    margin: 80px;
+    display: flex;
+}
+main .container .third-line  {
+    width: 100%;
+    height: auto;
+    margin: 80px;
+    display: flex;
+}
+.video {
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+main .container .last-area div {
+    border: 1px solid;
+    height: 350px;
+    text-align: center;
+    position: relative;
+}
+main .container .last-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-right: 80px;
+    padding-left: 80px ;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+main .container .last-area button {
+    width: 150px;
+    height: 50px;
+    background-color: #F1C40F;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 200;
+}
+main .container button a {
+    text-decoration: none;
+    color: black;
+}
+main .container .last-area .price {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+main .container .last-area span {
+    margin-top: 50px;
+    display: block;
+}
+main .container .last-area span p {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+main .container .last-area h4 {
+    background-color: #ddd;
+    margin-top: 0px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+/* end landing page  */
+
+/* start footer  */
+footer .container {
+    margin:0px 80px;
+    background-color: #ddd;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 40px;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer ul a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+footer li {
+    margin-left: 20px;
+}
+footer p {
+    color: gray;
+    font-family: sans-serif;
+    
+}
+/* end footer  */
+
+@media (max-width: 910px) {
+    nav .container img {
+        width: 300px;
+        height: 50px;
+    }
+}
+@media (max-width: 727px) {
+    nav .container img {
+        width: 150px;
+        height: 40px;
+    }
+}
